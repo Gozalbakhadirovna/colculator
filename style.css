@@ -1,0 +1,55 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(27, 132, 141);
+}
+h1 {
+    
+    text-align: center;
+    color: rgb(9, 53, 56);
+    font-size: 3em;
+}
+form {
+    margin-left: 42vw; 
+    margin-top: 7vw;
+    width: 310px;
+    height: 400px;
+    padding: 20px;
+    background-color: rgb(9, 53, 56);
+    border-radius: 12px;
+    box-shadow: 5px 5px 15px 2px rgba(255, 255, 255, 0.1);
+}
+table {
+    padding: 5%;
+}
+#display {
+    margin: 15px 10px;
+    padding: 10px, 4px;
+    font-size: 28px;
+    width: 250px;
+    color:rgb(76, 226, 240);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 2px rgba(255, 255, 255, 0.1);
+}
+/* input{
+    outline: none;
+} */
+input[type=button] {
+    font-family: sans-serif;
+    padding: 0;
+    width: 65px;
+    height: 65px;
+    font-size: 25px;
+    background-color: rgb(87, 130, 133);
+    color: rgb(9, 53, 56);;
+    opacity: .8;
+    border: none;
+    border-radius: 10%;
+    box-shadow: 5px 5px 15px 2px rgba(255, 255, 255, 0.1);
+}
+input[type=button]:hover{
+    color: rgb(76, 226, 240);
+    box-shadow: 5px 5px 15px 2px rgba(40, 165, 187, 0.1);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(28,186,172,1) 0%, rgba(15,181,168,1) 100%, rgba(22,181,185,1) 100%, rgba(13,217,212,1) 100%);
+}
